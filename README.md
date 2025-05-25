@@ -58,22 +58,7 @@ This project presents a hybrid, layered modeling approach that integrates **phys
 
 ---
 
-## 🧾 Project Structure
-
-glucose-prediction/
-│
-├── data/ # OhioT1DM raw XML files
-├── preprocessing/ # Time alignment, missing value handling
-├── features/ # Feature extraction scripts (moving avg, lag, etc.)
-├── models/
-│ ├── whitebox/ # Physiological subsystem modules
-│ └── blackbox/ # LSTM, GRU, TCN models
-├── optimization/ # Genetic algorithm scripts
-├── severity/ # Fuzzy logic implementation
-├── evaluation/ # Evaluation metrics, plots
-└── README.md
-
-Future Scope
+## Future Scope
 Integration with real-time wearable devices
 
 Reinforcement learning for insulin dosage recommendation
